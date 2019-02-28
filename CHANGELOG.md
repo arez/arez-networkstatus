@@ -1,6 +1,7 @@
 # Change Log
 
-### Unreleased
+### [v0.57](https://github.com/arez/arez-networkstatus/tree/v0.57) (2019-02-28)
+[Full Changelog](https://github.com/arez/arez-networkstatus/compare/v0.56...v0.57)
 
 * Update the 'org.realityforge.arez' dependencies to version '0.132'
 * Upgrade the `org.realityforge.com.google.elemental2` artifacts to version `1.0.0-b19-fb227e3`.
