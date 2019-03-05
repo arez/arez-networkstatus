@@ -41,7 +41,7 @@ public class NetworkStatusExample
   public void onModuleLoad()
   {
     final NetworkStatus networkStatus = NetworkStatus.create();
-    Arez.context().autorun( () ->
+    Arez.context().observe( () ->
                               DomGlobal.document.querySelector( "#network" ).textContent =
                                 "Network Status: " + ( networkStatus.isOnLine() ? "Online" : "Offline" ) );
   }
