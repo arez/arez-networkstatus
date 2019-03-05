@@ -33,7 +33,7 @@ import javax.annotation.Nullable;
  *   public void onModuleLoad()
  *   {
  *     final NetworkStatus networkStatus = NetworkStatus.create();
- *     Arez.context().autorun( () -> {
+ *     Arez.context().observer( () -> {
  *       final String message = "Network Status: " + ( networkStatus.isOnLine() ? "Online" : "Offline" );
  *       DomGlobal.console.log( message );
  *       if ( !networkStatus.isOnLine() )
